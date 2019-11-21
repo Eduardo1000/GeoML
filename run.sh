@@ -1,0 +1,1 @@
+docker run -v ${PWD}:/workspace --rm -it --network host --runtime=nvidia --user $(id -u):$(id -g) --entrypoint=/bin/bash learngeo_tf
